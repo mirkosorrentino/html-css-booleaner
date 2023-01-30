@@ -11,18 +11,22 @@ body {
     width: 60%;
 }
 
+.sections {
+    margin-bottom: 10px;
+}
+
 /* HEADER */
 .booleaner-logo {
-    width: 30%;
+    width: 20%;
     margin-top: 30px;
+    margin-left: 5px;
 }
 
 header {
     background-image: url(../img/pattern.png);
     background-size: contain;
     background-color: rgb(98, 171, 235);
-    height: 70px;
-    margin-bottom: 10px;
+    height: 70px;;
 }
 
 /* MAIN */
@@ -43,6 +47,8 @@ header {
 }
 
 /* images section */
+
+
 .title-section {
     margin-bottom: 10px;
 }
