@@ -8,7 +8,7 @@
 /* COMMON */
 body {
     margin: 0 auto;
-    width: 60%;
+    width: 80%;
 }
 
 .sections {
@@ -24,26 +24,30 @@ body {
 
 header {
     background-image: url(../img/pattern.png);
-    background-size: contain;
+    background-size: 45%;
     background-color: rgb(98, 171, 235);
-    height: 70px;;
+    height: 90px;;
 }
 
 /* MAIN */
+/* title section */
+h1 {
+    font-size: 45px;
+}
 
 .gray-words {
     color: gray;
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .booleaner {
     color: rgb(62, 175, 246);
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .date {
     color: gray;
-    font-size: 8px;
+    font-size: 12px;
 }
 
 /* images section */
@@ -75,6 +79,11 @@ header {
     background-color: yellow;
 }
 
+/* list section */
+.list {
+    padding: 20px;
+}
+
 /* table section */
 .table-heading {
     color: white;
@@ -82,21 +91,36 @@ header {
 }
 
 .table {
-    
+    border-collapse: collapse;
 }
 
 .odd-raws {
-    background-color: aqua;
+    background-color: rgb(157, 217, 217);
+}
+
+.column {
+    width: 50%;
 }
 
 /* FOOTER */
+
+.footer-title {
+    color: gray;
+    margin-bottom: 10px;
+}
 .advice1 {
     background-image: url(../img/monitor.jpg);
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 260px;
+    height: 205px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
 }
 
 .advice2 {
     background-image: url(../img/graph.jpg);
+    width: 260px;
+    height: 205px;
+    color: white;
+    padding: 10px;
 }
