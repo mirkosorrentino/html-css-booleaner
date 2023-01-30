@@ -75,4 +75,28 @@ header {
     background-color: yellow;
 }
 
+/* table section */
+.table-heading {
+    color: white;
+    background-color: rgb(0, 136, 255);
+}
+
+.table {
+    
+}
+
+.odd-raws {
+    background-color: aqua;
+}
+
 /* FOOTER */
+.advice1 {
+    background-image: url(../img/monitor.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.advice2 {
+    background-image: url(../img/graph.jpg);
+}
