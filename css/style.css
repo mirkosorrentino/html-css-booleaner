@@ -6,12 +6,36 @@
 }
 
 /* COMMON */
-
+body {
+    margin: 0 auto;
+    width: 60%;
+}
 
 /* HEADER */
 
 
 /* MAIN */
+.gray-words {
+    color: gray;
+    font-size: 12px;
+}
 
+.booleaner {
+    color: rgb(62, 175, 246);
+    font-size: 12px;
+}
+
+.date {
+    color: gray;
+    font-size: 8px;
+}
+
+.photo1 {
+    display: inline-block;
+}
+
+.photo2 {
+    display: inline-block;
+}
 
 /* FOOTER */
